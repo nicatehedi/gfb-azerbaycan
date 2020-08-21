@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+
+<head>
+
+
+
+
+    <meta charset="UTF-8">
+    <title> GFB Azərbaycan Rəsmi VEB Saytı </title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        /**
+        html {
+            scroll-behavior: smooth;
+        }
+**/
+
+        body {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 300;
+
+            /**
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            
+            font-size: .8rem;
+            
+            background: #121212;
+            color: #FF4754;
+
+
+            margin: 0;
+            **/
+        }
+
+        /**
+        h1 {
+            font-weight: 500;
+        }
+        **/
+
+
+        /** Typewriter **/
+
+       
+
+        
+
+
+        section {
+            background: var(--color);
+            height: 100vh;
+        }
+
+
+
+        /** Navigation Bar **/
+
+        nav {
+            padding: 25px;
+            position: sticky;
+            top: 0;
+
+            background-color: #FFFF00;
+
+            display: grid;
+            grid-template-columns: 25% auto;
+            column-gap: 20%;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-around;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000033;
+            transition: opacity 200ms ease-in-out;
+            overflow: hidden;
+        }
+
+        nav ul li a:after {
+            content: "";
+            display: block;
+
+            width: 0;
+            height: 3px;
+            margin-top: 3px;
+            border-radius: 3px;
+            background-color: #000033;
+
+            transition: width .2s ease-in-out;
+
+        }
+
+
+        nav ul li a.current::after {
+            width: 100%;
+        }
+
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        .heading {
+            text-align: center;
+
+        }
+
+        .heading span {
+            font-weight: 500;
+            font-size;
+            50px;
+            color: #000033;
+        }
+
+
+        main section h1 {
+            position: absolute;
+            top: 50%;
+            left: 30%;
+        }
+
+        #home {
+            background-image: url(gfb.jpg);
+            background: url(gfb.jpg) no-repeat center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            min-height: 50px;
+        }
+
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <!--Navigation Bar-->
+
+    <nav>
+
+        <!--Heading-->
+
+        <div class="heading">
+            <span> GFB Azərbaycan Rəsmi VEB Saytı </span>
+        </div>
+
+
+        <!--Menu Bar-->
+
+        <ul>
+
+            <!--Home-->
+            <li>
+                <a href="1-home.html">
+                    <i class="fas fa-home"></i>
+                    Əsas Səhifə
+                </a>
+            </li>
+
+            <!--About-->
+
+            <li>
+                <a href="2-about.html">
+                    <i class="fas fa-info"></i>
+                    Haqqımızda
+                </a>
+            </li>
+
+            <!--Activity-->
+
+            <li>
+                <a href="3-activity.html">
+                    <i class="fas fa-fist-raised"></i>
+
+                    Fəaliyyətimiz
+                </a>
+            </li>
+
+            <!--Social Media-->
+
+            <li>
+                <a href="4-social.html">
+                    <i class="fas fa-users"></i>
+                    Sosial Media Komandamız
+                </a>
+            </li>
+
+            <!--Contact-->
+
+            <li>
+                <a href="5-contact.html">
+                    <i class="fas fa-phone"></i>
+                    Əlaqə
+                </a>
+            </li>
+
+
+        </ul>
+    </nav>
+
+
+    <main>
+
+
+
+        <section id="social" style="--color: #009999;">
+
+
+            <div class="typewriter" style="position: relative;">
+
+                <h1 style="font-size: 30px; color: #FFFF00; position: absolute; top: 180px;"> <i class="fas fa-cog fa-spin fa-3x" id="cog" style="position: absolute; top: 200px; left: 200px;"></i> WEB Səhifədə redaktə işləri gedir. </h1>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+    </main>
+
+</body>
+
+
+
+</html>
